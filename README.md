@@ -1,24 +1,51 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## 🚀 Démarrage rapide (avec pnpm)
 
-First, run the development server:
+Instructions pour cloner le projet, installer les dépendances (pnpm) et lancer le serveur de développement.
+
+### 1. Prérequis
+
+- Node.js 18+ recommandé (LTS)
+- [pnpm](https://pnpm.io/) installé globalement. Si vous ne l'avez pas :
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install -g pnpm
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Cloner le dépôt
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+git clone https://github.com/rbzdev/web-venus-olivier-rubuz.git
+cd web-venus-olivier-rubuz
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. Installer les dépendances
+
+```bash
+pnpm install
+```
+
+### 4. Lancer l'application en développement
+
+```bash
+pnpm dev
+```
+
+Ensuite ouvrez votre navigateur sur : http://localhost:3000
+
+### 5. Modifier le code
+
+Commencez par éditer `app/page.tsx` (hot reload activé).
+
+---
+
+## ℹ️ Détails techniques
+
+- Utilise l'App Router de Next.js (`app/`)
+- Fonts optimisées via [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) (Geist)
+
+---
 
 ## Learn More
 
